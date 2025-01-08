@@ -57,6 +57,11 @@ class Sneak extends Command
             app('sneaker')->captureException(new DummyException, true);
 
             $this->info('Sneaker is working fine ✅');
+
+            if (($queue = config('queue.default')) !== 'sync') {
+                $this->warn('The exception mail has been queued on the "'.$queue.'" queue.');
+                $this->warn('Make sure you have queue workers running to deliver the email.');
+            }
         } catch (Exception $e) {
             (new ConsoleApplication)->renderThrowable($e, $this->output);
         }
