@@ -12,13 +12,13 @@
     ],
     "require": {
         "php": ">=7.3",
-        "illuminate/support": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/view": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/config": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/mail": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/log": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/queue": "^8.0 | ^9.0 | ^10.0 | ^11.0",
-        "illuminate/console": "^8.0 | ^9.0 | ^10.0 | ^11.0",
+        "illuminate/support": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/view": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/config": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/mail": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/log": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/queue": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
+        "illuminate/console": "^8.0 | ^9.0 | ^10.0 | ^11.0 | ^12.0",
         "symfony/error-handler": "~5.1 | ^6.0 | ^7.0"
     },
     "require-dev": {
